@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Wine</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- general css style sheer -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- The simplyweather script used to load the weather -->
+
+
+</head>
+
+
+<body>
+<div class="background">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">YDS</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="beer.html">Beer </a></li>
+                    <li class="active"><a href="wine.html">Wine</a></li>
+                    <li><a href="spirit.html">Spirit</a></li>
+
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <form class="form-inline">
+                        <input class="form-control" type="text" placeholder="City" id="search_textbox">
+                        <button class="btn btn-outline-success" type="submit" id="citysearch">Search</button>
+                    </form>
+                </form>
+                <form class="navbar-form navbar-right">
+                    <div class="form-inline">
+                        <div class="col-md-12">
+                            <div class="col-md-9">
+                                <div id="weather"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="js-geolocation" src="images/location.svg"
+                                     alt="Get your current location">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </form>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid">
+
+        <div class="jumbotron ">
+            <div class="container-fluid introduction">
+                <h1 id="automated_suggestion">My automated suggestion:</h1>
+                <div class="container-fluid">
+                    <div id="drink">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div>A 2ID60 Project! Wine reviews by <a href="http://www.decanter.com">decanter</a>.
+            </div>
+
+
+        </div>
+    </footer>
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.simpleWeather.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

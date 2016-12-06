@@ -1,0 +1,111 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.introduction {
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.name {
+    font-family: "custom-headerfont", sans-serif;
+
+}
+
+body {
+    background: url(../images/background1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.3);
+
+}
+
+.navbar {
+    background-color: whitesmoke;
+    opacity: 0.6;
+}
+
+.image_homepage:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+}
+
+.image_homepage {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(100%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(100%);
+    -o-transition: .5s ease-in-out;
+}
+
+#weather {
+    width: auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+
+}
+
+i {
+
+    font-family: weather;
+
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.0;
+}
+
+#weather h3 {
+
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather li {
+
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 20px;
+    background-color: whitesmoke;
+    opacity: 0.4;
+    color: #000;
+}
+
+.buttonsbelow {
+    margin: 10px;
+}
+
+.js-geolocation {
+    display: block;
+    max-height: 120px;
+    max-width: 70px;
+    min-width: 30px;
+    min-height: 30px;
+    margin: auto;
+}
+
+
